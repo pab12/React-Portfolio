@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Navigator from './components/Navigator';
+import Header from './components/Header';
+import Project from './components/Project';
+import Footer from './components/Footer';
+import Resume from './components/Navigator/Resume';
+ import PortfolioContainer from './components/Navigator/PortfolioContainer';
+ import About from './components/Navigator/About';
+ import Navtab from './components/Navigator/Navtab';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Header></Header> */}
+      {/* <Navigator></Navigator>
+      <Navtab></Navtab> */}
+      
+      {/* <Footer></Footer> */}
+      <PortfolioContainer></PortfolioContainer>
+      {/* <Project></Project> */}
+      {/* <Resume></Resume>
+      <About></About> */}
     </div>
   );
 }

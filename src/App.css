@@ -36,3 +36,208 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header style starts */
+header {
+  padding: 10px;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  background-color: black;
+}
+header h1 a {
+  padding: 10px 15px;
+  text-align:right;
+  text-decoration: none;
+  background-color: lightblue;
+}
+
+header nav {
+  margin: 7px 0;
+}
+header nav ul, .contact-me footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  list-style: none;
+}
+nav ul {
+  padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+header nav ul li a {
+  padding: 10px 50px;
+  color: lightblue;
+}
+/*header style ends*/
+h2 {
+  text-align: right;
+}
+
+.hero {
+
+  display:flex;
+  flex-wrap: wrap;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+.avatar {
+  position:relative;
+  bottom: 200px;
+  left:65px;
+}
+
+img {
+  width: -webkit-fill-available;
+  height: inherit;
+}
+.avatar img {
+  width: 20%;
+}
+.page-section {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+
+}
+.page-section>h2 {
+  font-size:50px;
+  border-right: 3px solid;
+  border-right-color:blue;
+  /* display: flex;
+  justify-content: flex-end; */
+  flex: 0 0 25%;
+  padding-right: 20px;
+}
+.page-section> div {
+  flex:0 0 71%;
+}
+/*about me section*/
+.about-me {
+  max-height: 300px;
+  padding-bottom: 10px;
+  
+}
+
+.about-me p {
+  padding:10px 10px 10px 10px;
+  /* flex: 1; */
+}
+/*about me section ends*/
+
+/* work section starts*/
+.work {
+  padding-bottom: 10px;
+}
+
+.my-work {
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.project {
+  display:flex;
+  align-items:flex-end;
+  flex-basis:calc(49% - 1em);
+  border: 5px solid blue;
+  min-height: 100px;
+  max-height: 100px;
+  background-size: 100%;
+  margin: 10px;
+  opacity: 0.77;
+  /* position:relative; */
+}
+.project:hover {
+  color: dodgerblue;
+  opacity: 1;
+}
+
+
+.work-text {
+  bottom: 100px;
+  background-color: lightblue;
+}
+.work-text h3 {
+  font-size: 30px;
+}
+.work-text p {
+  font-size: 25px;
+}
+/*Work section ends*/
+/*contact section starts*/
+.contact-me {
+  padding-bottom:10px;
+}
+.contact-me footer ul a {
+  padding: 10px;
+}
+a {
+  flex:1;
+}
+.run-buddy  {
+  min-height: 200px;
+  flex-basis: 100%;
+  background-image: url("../src/assets/images/run-buddy.png");
+}
+.horiseon {
+  background-image: url("../src/assets/images/Horiseon.png");
+  
+}
+.place-holder {
+  background-image: url("../src/assets/images/run-buddy.png");
+}
+.pick-a-kick {
+  background-image: url("../src/assets/images/pick-a-kick.png");
+}
+.anansi {
+  background-image: url("../src/assets/images/Anansi.png");
+}
+
+
+footer {
+  flex: 0 0 75%;
+}
+
+@media screen and (max-width: 900px) {
+  header {    
+  justify-content: center;
+  }
+  header nav {
+      justify-content: center;
+  }
+  /* .page-section>h2 {
+      flex: 0 0 100%;
+      
+  } */
+  .project {
+      flex: 0 0 100%;
+      flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .hero {
+      justify-content: center;
+  }
+  .project {
+      flex:0 0 100%;
+      flex-basis: 100%;
+  }
+  footer {
+      flex: 0 0 100%;
+      flex-basis: 100%;
+  }
+}
