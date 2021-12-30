@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
 
   return(
-    <section id="about-me" class="about-me page-section" >
+    <section id="about-me" className="about-me page-section" >
                  <h2>About me!</h2>
                  <div>
                     <p> Barnaby The Bear’s my name, never call me Jack or James, I will sing my way to fame, Barnaby the Bear’s my name. Birds taught me to sing, when they took me to their king, first I had to fly,

@@ -206,9 +206,20 @@ a {
   background-image: url("../src/assets/images/Anansi.png");
 }
 
+.resume {
+  font-size: 30px;
+  text-align: center;
+}
 
 footer {
   flex: 0 0 75%;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background:#999;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 900px) {
@@ -226,6 +237,10 @@ footer {
       flex: 0 0 100%;
       flex-basis: 100%;
   }
+}
+
+a.nav-link.active {
+  color: #85FFC7;
 }
 
 @media screen and (max-width: 768px){

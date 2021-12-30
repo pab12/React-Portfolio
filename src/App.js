@@ -12,14 +12,8 @@ function App() {
   return (
     <div>
       {/* <Header></Header> */}
-      {/* <Navigator></Navigator>
-      <Navtab></Navtab> */}
-      
-      {/* <Footer></Footer> */}
       <PortfolioContainer></PortfolioContainer>
-      {/* <Project></Project> */}
-      {/* <Resume></Resume>
-      <About></About> */}
+      <Footer></Footer>
     </div>
   );
 }
