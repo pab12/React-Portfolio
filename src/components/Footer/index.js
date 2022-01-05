@@ -10,7 +10,7 @@ const Footer = () => {
                             <a href="https://github.com/pab12" target="_blank">GitHub</a>
                         </li>
                         <li>
-                            <a href="mailto:paulbarcenas@yahoo.com">email:paulbarcenas@yahoo.com</a>
+                            <a href="mailto:paulbarcenas@yahoo.com">email: paulbarcenas@yahoo.com</a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/paul-barcenas-26abb0217/" target= "_blank">Linkedin</a>
